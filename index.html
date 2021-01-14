@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="stickyNotes.css">
+        <script src="stickyNotes.js"></script>
+    </head>
+    <body>
+        <form>
+            <label for="note_color">Color:</label> 
+            <select id="note_color">
+                <option value="LightGoldenRodYellow">yellow</option>
+                <option value="PaleGreen">green</option>
+                <option value="LightPink">pink</option>
+                <option value="LightBlue">blue</option>
+            </select>
+            <label for="note_text">Text:</label>
+            <input type="text" id="note_text">
+            <button type="button" id="add_button">Add a sticky note</button>
+            <button type="button" id="clear_button">Clear storage</button>
+        </form>
+
+        <ul id="stickies">
+
+        </ul>
+
+
+    </body>
+</html>
